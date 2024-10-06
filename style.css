@@ -1,0 +1,152 @@
+/* General styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #ffe6f0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ff5e6c;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid #ff9ba8;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #ff9ba8;
+  transform: scale(1.05);
+}
+
+#yesButton {
+  background-color: #ff5e6c;
+  color: white;
+  font-size: 18px;  /* Larger Yes button */
+}
+
+#thinkButton {
+  background-color: #f5a3b8;
+  color: white;
+  font-size: 20px;  /* Increased font size for clarity */
+  padding: 16px 30px;  /* Increased padding for a larger button */
+  display: block;
+  margin: 10px auto 0; /* Positioned under the Yes button */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added hover effect */
+}
+
+#thinkButton:hover {
+  background-color: #ff9ba8; /* Change color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.hidden {
+  display: none;
+}
+
+/* Special effect for the love message */
+.message-animate {
+  animation: fadeInUp 1.5s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.special-text {
+  font-size: 24px;
+  color: #ff5e6c;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Happiness message style */
+#happinessMessage {
+  font-size: 30px;
+  color: #ff5e6c;
+  font-weight: bold;
+}
+
+/* Confetti Canvas */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.button-container {
+    display: flex;  /* Use flexbox to align buttons side by side */
+    justify-content: center;  /* Center the buttons horizontally */
+    margin-top: 20px;  /* Add some margin above the buttons */
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;  /* Adjusted margin to allow for spacing between buttons */
+}
+
+/* Specific styles for Yes and Think buttons */
+#yesButton {
+    background-color: #ff5e6c;
+    color: white;
+    font-size: 18px;  /* Larger Yes button */
+}
+
+#thinkButton {
+    background-color: #f5a3b8;
+    color: white;
+    font-size: 20px;  /* Increased font size for clarity */
+    padding: 16px 30px;  /* Increased padding for a larger button */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added hover effect */
+}
+
+#thinkButton:hover {
+    background-color: #ff9ba8; /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

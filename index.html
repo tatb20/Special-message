@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Message</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="formContainer">
+        <h1>Enter Your Name</h1>
+        <input type="text" id="nameInput" placeholder="Your name here">
+        <button onclick="checkName()">Submit</button>
+    </div>
+    
+    <div id="message" class="hidden message-animate">
+        <p class="special-text" id="proposalMessage">herName! You are the most beautiful thing that happened to me ❤️</p>  <!-- Heart added here -->
+        <p>Will you with me forever?</p>
+        <button id="yesButton" onclick="acceptProposal()">Yes</button>
+        <button id="thinkButton">I will think about it</button>
+    </div>
+
+    <div id="happinessMessage" class="hidden">You will be the happiest girl ever!</div>  <!-- Message shown when Yes is pressed -->
+
+    <canvas id="confettiCanvas"></canvas> <!-- Confetti effect element -->
+
+    <script src="script.js"></script>
+</body>
+</html>
