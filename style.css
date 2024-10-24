@@ -2,7 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-color: #89cff0;
+  background-color: #f8f0e3;  /* Soft Cream */
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -22,7 +22,7 @@ body {
 
 h1 {
   font-size: 28px;
-  color: #ff5e6c;
+  color: #575a5e;  /* Soft Charcoal */
   margin-bottom: 20px;
 }
 
@@ -31,7 +31,7 @@ input[type="text"] {
   padding: 12px;
   font-size: 18px;
   border-radius: 8px;
-  border: 2px solid #ff9ba8;
+  border: 2px solid #ff9ba8;  /* Light Coral Border */
   margin-bottom: 20px;
   outline: none;
 }
@@ -47,29 +47,34 @@ button {
 }
 
 button:hover {
-  background-color: #ff9ba8;
+  background-color: #ff9ba8;  /* Coral Pink Hover Effect */
   transform: scale(1.05);
 }
 
+/* Specific styles for Yes and Think buttons */
 #yesButton {
-  background-color: #ff5e6c;
+  background-color: #ff6f61;  /* Soft Coral */
   color: white;
   font-size: 18px;  /* Larger Yes button */
 }
 
+#yesButton:hover {
+  background-color: #ff856e;  /* Coral Pink Hover */
+}
+
 #thinkButton {
-  background-color: #f5a3b8;
+  background-color: #ffbcaf;  /* Light Peach */
   color: white;
   font-size: 20px;  /* Increased font size for clarity */
   padding: 16px 30px;  /* Increased padding for a larger button */
   display: block;
-  margin: 10px auto 0; /* Positioned under the Yes button */
+  margin: 10px auto 0;  /* Positioned under the Yes button */
   transition: background-color 0.3s ease, transform 0.2s ease; /* Added hover effect */
 }
 
 #thinkButton:hover {
-  background-color: #ff9ba8; /* Change color on hover */
-  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: #ff9ba8;  /* Coral Pink Hover */
+  transform: scale(1.05);  /* Slightly enlarge on hover */
 }
 
 .hidden {
@@ -94,7 +99,7 @@ button:hover {
 
 .special-text {
   font-size: 24px;
-  color: #ff5e6c;
+  color: #ff6f61;  /* Soft Coral */
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -102,7 +107,7 @@ button:hover {
 /* Happiness message style */
 #happinessMessage {
   font-size: 30px;
-  color: #ff5e6c;
+  color: #ff6f61;  /* Soft Coral */
   font-weight: bold;
 }
 
@@ -115,47 +120,3 @@ canvas {
   height: 100%;
   pointer-events: none;
 }
-.button-container {
-    display: flex;  /* Use flexbox to align buttons side by side */
-    justify-content: center;  /* Center the buttons horizontally */
-    margin-top: 20px;  /* Add some margin above the buttons */
-}
-
-button {
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 10px;  /* Adjusted margin to allow for spacing between buttons */
-}
-
-/* Specific styles for Yes and Think buttons */
-#yesButton {
-    background-color: #ff5e6c;
-    color: white;
-    font-size: 18px;  /* Larger Yes button */
-}
-
-#thinkButton {
-    background-color: #f5a3b8;
-    color: white;
-    font-size: 20px;  /* Increased font size for clarity */
-    padding: 16px 30px;  /* Increased padding for a larger button */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Added hover effect */
-}
-
-#thinkButton:hover {
-    background-color: #ff9ba8; /* Change color on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
-}
-
-.arabic-text {
-    font-size: 20px;
-    color: #ff5e6c; /* Keep the pink color to match the style */
-    direction: rtl; /* Ensure right-to-left text direction */
-    font-family: 'Arial', sans-serif; /* Make sure the font supports Arabic */
-    margin-bottom: 20px;
-}
-
