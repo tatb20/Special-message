@@ -120,3 +120,14 @@ canvas {
   height: 100%;
   pointer-events: none;
 }
+
+#youtubeLink {
+  color: #ff6f61; /* Same Soft Coral color as the rest */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#youtubeLink:hover {
+  color: #ff856e; /* Hover effect for the link */
+}
