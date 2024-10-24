@@ -150,3 +150,12 @@ button {
     background-color: #ff9ba8; /* Change color on hover */
     transform: scale(1.05); /* Slightly enlarge on hover */
 }
+
+.arabic-text {
+    font-size: 20px;
+    color: #ff5e6c; /* Keep the pink color to match the style */
+    direction: rtl; /* Ensure right-to-left text direction */
+    font-family: 'Arial', sans-serif; /* Make sure the font supports Arabic */
+    margin-bottom: 20px;
+}
+
