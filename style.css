@@ -2,7 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-color: #f8f0e3;  /* Soft Cream */
+  background-color: #f4e4f3; /* Soft Lavender */
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -22,7 +22,7 @@ body {
 
 h1 {
   font-size: 28px;
-  color: #575a5e;  /* Soft Charcoal */
+  color: #4a4a58; /* Soft Slate */
   margin-bottom: 20px;
 }
 
@@ -31,7 +31,7 @@ input[type="text"] {
   padding: 12px;
   font-size: 18px;
   border-radius: 8px;
-  border: 2px solid #ff9ba8;  /* Light Coral Border */
+  border: 2px solid #d8a7d0; /* Pastel Purple Border */
   margin-bottom: 20px;
   outline: none;
 }
@@ -53,17 +53,17 @@ button:hover {
 
 /* Specific styles for Yes and Think buttons */
 #yesButton {
-  background-color: #ff6f61;  /* Soft Coral */
+  background-color: #e05f8b; /* Deep Rose */
   color: white;
   font-size: 18px;  /* Larger Yes button */
 }
 
 #yesButton:hover {
-  background-color: #ff856e;  /* Coral Pink Hover */
+  background-color: #e6729b; /* Vibrant Rose Pink */
 }
 
 #thinkButton {
-  background-color: #ffbcaf;  /* Light Peach */
+  background-color: #f7d4e3; /* Pale Pink */
   color: white;
   font-size: 20px;  /* Increased font size for clarity */
   padding: 16px 30px;  /* Increased padding for a larger button */
@@ -73,7 +73,7 @@ button:hover {
 }
 
 #thinkButton:hover {
-  background-color: #ff9ba8;  /* Coral Pink Hover */
+  background-color: #e5a3b9; /* Bright Blush */
   transform: scale(1.05);  /* Slightly enlarge on hover */
 }
 
@@ -107,7 +107,7 @@ button:hover {
 /* Happiness message style */
 #happinessMessage {
   font-size: 30px;
-  color: #ff6f61;  /* Soft Coral */
+  color: #e05f8b; /* Deep Rose */
   font-weight: bold;
 }
 
@@ -122,7 +122,7 @@ canvas {
 }
 
 #youtubeLink {
-  color: #ff6f61; /* Same Soft Coral color as the rest */
+  color: #e05f8b; /* Deep Rose */
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
